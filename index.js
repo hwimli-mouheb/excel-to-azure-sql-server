@@ -13,7 +13,7 @@ console.log("VALIDATING DATA")
 const {wrongData, data : validData } = validateData(data);
 
 //console.log(wrongData)
-console.log(wrongData.length);
+console.log(validData.length);
 console.log(validData.length);
 
 console.log("INSERTING ROWS")
